@@ -2,26 +2,27 @@
 body{
     margin: 0;
     font-family: 'Times New Roman', Times, serif;
-    height: 100vh;
+    height: 80vh;
+    width:auto ;
 }
 .main-container {
     margin-bottom: 50px;
 }
 .navbar {
     overflow: hidden;
-    background-color:#55acff ;
+    background-color:#535e68 ;
     position: relative;
     top: 0;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 60px;
+    height: 50px;
     margin-top: 20px; 
 }
 #button {
-    background-color:#55acff;
-    color: #035a53;
+    background-color:#b5cadf;
+    color: #172726;
     height: 34px;
     width: 80px;
     border-radius: 10px;
@@ -30,6 +31,7 @@ body{
 .navbar-left {
     display: flex;
     align-items: center;
+    flex-grow: 1;
 }
 .navbar-center {
     display: flex;
@@ -39,6 +41,7 @@ body{
 .navbar-right {
     display: flex;
     align-items: center;
+    flex-grow: 1;
 }
 .navbar-center>a {
   margin: 0 20px;
@@ -57,9 +60,9 @@ body{
     color: black;
 }
 .homer {
-    font-weight: bold;
     text-decoration: none;
     color: black;
+    
 }
 .service {
     text-decoration: none;
@@ -94,6 +97,7 @@ body{
     font-family: Georgia, 'Times New Roman', 
     Times, serif;
     margin-left: 20px;
+    font-size: 30px;
 }
 .container {
     margin-left: 20px;
@@ -129,12 +133,13 @@ body{
 .sub-container44 {
     display: flex;
     justify-content: center;
+    height: auto;
 }
 .sub-container44 .span-div {
     display: flex;
     flex-direction: column;
-    padding: 2rem;
-    background-color:#55acff;
+    padding: 1rem;
+    background-color:#6e7983;
     color: black;
     align-items: center;
 }
@@ -287,8 +292,8 @@ footer {
 }
 
 .icon {
-  width: 32px; /* Set the width of the icon */
-  height: 32px; /* Set the height of the icon */
+  width: 32px; 
+  height: 32px; 
 }
 
 .social-icon {
