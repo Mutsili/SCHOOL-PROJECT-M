@@ -74,10 +74,10 @@
             const videoPoster = document.getElementById('video-poster');
         
             playIcon.addEventListener('click', function() {
-                // Hide the image and show the video
-                videoPoster.style.display = 'none'; // Hide the poster image
-                video.style.display = 'block'; // Show the video
-                video.play(); // Play the video
+                
+                videoPoster.style.display = 'none';
+                video.style.display = 'block'; 
+                video.play(); 
             });
         </script>
 
@@ -104,20 +104,20 @@
 </div>
 
 <script>
-  // Function to animate the numbers slowly over 10 minutes
+  
 function animateNumbers() {
     const counters = document.querySelectorAll('.sub-span');
-    const duration = 600000; // 10 minutes in milliseconds
+    const duration = 600000; 
 
     counters.forEach(counter => {
         const target = +counter.getAttribute('data-target');
-        const increment = target / (duration / 100); // Slow increment over time
+        const increment = target / (duration / 100); 
 
         const updateCounter = () => {
-            const current = +counter.innerText.replace(/[^0-9]/g, ''); // Extract current number
+            const current = +counter.innerText.replace(/[^0-9]/g, ''); 
             if (current < target) {
                 counter.innerText = Math.ceil(current + increment) + (counter.innerText.includes('%') ? '%' : '+');
-                setTimeout(updateCounter, 100); // Update every 100ms for smooth animation
+                setTimeout(updateCounter, 100); 
             } else {
                 counter.innerText = target + (counter.innerText.includes('%') ? '%' : '+');
             }
@@ -127,7 +127,7 @@ function animateNumbers() {
     });
 }
 
-// Start the animation when the page loads
+
 window.addEventListener('DOMContentLoaded', animateNumbers);
 
 </script>
@@ -149,13 +149,13 @@ window.addEventListener('DOMContentLoaded', animateNumbers);
             </div>
             <div class="sub-bestservice">
                 <span class="myimage"><img 
-                    src="women.png" alt="Million Customers"></span>
+                    src="File-women.png" alt="Million Customers"></span>
                 <p class="caps">Million Customers</p>
                 <p>Number of customers in the picture to show.</p>
             </div>
             <div class="sub-bestservice">
                 <span class="myimage"><img 
-                    src="gcomp.jpg" alt="medical Support"></span>
+                    src="File-gcomp.jpg" alt="medical Support"></span>
                 <p class="caps">Chatbot Support</p>
                 <p>Chatbot support need something special I will put here.</p>
             </div>
@@ -164,27 +164,27 @@ window.addEventListener('DOMContentLoaded', animateNumbers);
 
     <div class="otherpics">
         <div class="sub-otherpics">
-            <span><img src="clinical.jpg" alt="Baby Health"></span>
+            <span><img src="File-clinical.jpg" alt="Baby Health"></span>
             <p>Baby Health</p>
         </div>
         <div class="sub-otherpics">
-            <span><img src="stomach.png" alt="Stomach Health"></span>
+            <span><img src="File-stomach.png" alt="Stomach Health"></span>
             <p>Stomach</p>
         </div>
         <div class="sub-otherpics">
-            <span><img src="image.jpg" alt="Psychiatry"></span>
+            <span><img src="File-image.jpg" alt="Psychiatry"></span>
             <p>Psychiatry</p>
         </div>
         <div class="sub-otherpics">
-            <span><img src="urology.jpg" alt="Urology"></span>
+            <span><img src="File-urology.jpg" alt="Urology"></span>
             <p>Urology</p>
         </div>
         <div class="sub-otherpics">
-            <span><img src="dermatology.png" alt="Dermatology"></span>
+            <span><img src="File-dermatology.png" alt="Dermatology"></span>
             <p>Dermatology</p>
         </div>
         <div class="sub-otherpics">
-            <span><img src="infectious.jpg" alt="Infectious Disease"></span>
+            <span><img src="File-infectious.jpg" alt="Infectious Disease"></span>
             <p>Infectious Disease</p>
         </div>
     </div>
@@ -214,25 +214,25 @@ window.addEventListener('DOMContentLoaded', animateNumbers);
         <div class="section-header">Our Best <strong>Doctors</strong></div>
         <div class="main-doctors">
             <div class="doctors">
-                <span><img src="doc3.jpg" alt="Dr. Kin Wanjala"></span>
+                <span><img src="File-doc3.jpg" alt="Dr. Kin Wanjala"></span>
                 <p>Dr. Kin Wanjala</p>
                 <p>The doctor you need to heal matters health.</p>
                 <p>Educational background is important here!</p>
             </div>
             <div class="doctors">
-                <span><img src="doc2.jpg" alt="Dr. Michael Work"></span>
+                <span><img src="File-doc2.jpg" alt="Dr. Michael Work"></span>
                 <p>Dr. Michelle Work</p>
                 <p>The doctor you need to heal matters spirit.</p>
                 <p>Educational background is important here!</p>
             </div>
             <div class="doctors">
-                <span><img src="doc4.jpg" alt="Dr. Kelvin Mulela"></span>
+                <span><img src="File-doc4.jpg" alt="Dr. Kelvin Mulela"></span>
                 <p>Dr. Kelvin Mulela</p>
                 <p>The doctor you need to heal matters heart.</p>
                 <p>Educational background is important here!</p>
             </div>
             <div class="doctors">
-                <span><img src="doc12.jpg" alt="Dr. David Kombo"></span>
+                <span><img src="File-doc12.jpg" alt="Dr. David Kombo"></span>
                 <p>Dr. David Kombo</p>
                 <p>The doctor you need to heal matters family.</p>
                 <p>Educational background is important here!</p>
@@ -247,21 +247,21 @@ window.addEventListener('DOMContentLoaded', animateNumbers);
         <div class="someinfo">
             <div class="step-item" style="margin-right: 30px;">
               <div class="steps">
-                <span><img src="specialist.jpg" alt="" style="width: 100px; height: 100px; border-radius: 50%;"></span>
+                <span><img src="File-specialist.jpg" alt="" style="width: 100px; height: 100px; border-radius: 50%;"></span>
               </div>
                 <p>Check Doctor Profile</p>
                 <p>Our AI technology and doctors work together to assess your condition.</p>
             </div>
             <div class="step-item">
               <div class="steps">
-                <span><img src="man.jpg" alt="" style="width: 100px; height: 100px; border-radius: 50%;"></span>
+                <span><img src="File-man.jpg" alt="" style="width: 100px; height: 100px; border-radius: 50%;"></span>
               </div>
                 <p>Request Consultation</p>
                 <p>Share your symptoms or health concerns with us through our easy-to-use interface.</p>
             </div>
             <div class="step-item">
               <div class="steps">
-                <span><img src="communication.jpg" alt="" style="width: 100px; height: 100px; border-radius: 50%;"></span>
+                <span><img src="File-communication.jpg" alt="" style="width: 100px; height: 100px; border-radius: 50%;"></span>
               </div>
                 <p>Receive Your Consultation</p>
                 <p>Get instant insights into your symptoms with our advanced AI-powered symptom checker</p>
@@ -286,7 +286,7 @@ window.addEventListener('DOMContentLoaded', animateNumbers);
             <p>Anywhere in the world you will find us.<br>Be happy for us!</p><br><br>
             <button class="button44">Find Doctor Now</button>
         </div>
-        <span><img src="doctors.jpg" alt="Best Doctors Anywhere" class="responsive-image"></span>
+        <span><img src="File-doctors.jpg" alt="Best Doctors Anywhere" class="responsive-image"></span>
     </div>
 
     <div class="onlinecare">
@@ -305,14 +305,14 @@ window.addEventListener('DOMContentLoaded', animateNumbers);
         <div class="section-header">What People Say <strong>About Us</strong></div>
         <div class="testimonials">
             <div class="testimonial">
-                <span><img src="person2.jpg" alt="Patient Interview"></span>
+                <span><img src="File-person2.jpg" alt="Patient Interview"></span>
                 <p>With the upward growth of corporate hospital culture many small 
                     hospitals/nursing homes/clinics have started investing in the quality/hygiene,
                     training, infrastructure and the communication technology, this will really 
                     work in long run.</p>
             </div>
             <div class="testimonial">
-                <span><img src="person4.jpg"alt="Patient with Us"></span>
+                <span><img src="File-person4.jpg"alt="Patient with Us"></span>
                 <p>With the upward growth of corporate hospital culture many small hospitals/nursing
                      homes/clinics have started investing in the quality/hygiene, training, infrastructure 
                      and the communication technology, this will really work in long run.</p>
